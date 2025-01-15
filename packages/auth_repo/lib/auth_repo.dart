@@ -1,7 +1,5 @@
 library auth_repo;
 
-import 'package:localstorage/localstorage.dart';
-
 export './src/auth_repo.dart';
 export './src/models/register_request.dart';
 export './src/models/register_response.dart';
