@@ -1,0 +1,43 @@
+name: mentalhealthapp
+description: "A new Flutter project."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  api_client:
+    path: packages/api_client
+  auth_repo:
+    path: packages/auth_repo
+  industry_repo:
+    path: packages/industry_repo
+  user_repo:
+    path: packages/user_repo
+  localstorage:
+    path: packages/localstorage
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  dio: ^5.7.0
+  carousel_slider: ^5.0.0
+  flutter_svg: ^2.0.15
+  formz: ^0.8.0
+  get_it: ^8.0.2
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  generate: true
+  assets:
+    - lib/l10n/arb/
